@@ -1,0 +1,6 @@
+color = true
+editor = "vim"
+banner = true
+auto_copy = false
+icons = true
+autobackup = true
