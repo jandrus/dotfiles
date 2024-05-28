@@ -4,7 +4,7 @@ set -U fish_greeting ""
 
 
 # PATHS
-export PATH="$HOME/.config/emacs/bin:$HOME/.local/bin:$HOME/.config/composer/vendor/bin:/mnt/glados/Programming/Go/bin:$HOME/.local/share/npm-global/bin:$PATH"
+export PATH="$HOME/.config/emacs/bin:$HOME/.local/bin:$HOME/.cargo/bin:$HOME/.config/composer/vendor/bin:/mnt/glados/Programming/Go/bin:$HOME/.local/share/npm-global/bin:$PATH"
 export GOPATH=/mnt/glados/Programming/Go
 export GOBIN=/mnt/glados/Programming/Go/bin
 
@@ -32,10 +32,6 @@ if status is-interactive
     alias logout='pkill -KILL -u $USER'
     alias :w='cowsay -d "A specter is haunting the modern world"'
     alias mine-nh='sudo /mnt/pi/mining/run/arch/nicehash.sh'
-    alias mine-zeph='sudo /mnt/pi/mining/run/arch/zeph.sh'
-    alias mine-mecu='sudo /mnt/pi/mining/run/arch/mecu.sh'
-    alias mine-rtc='sudo /mnt/pi/mining/run/arch/rtc.sh'
-    alias mine-gprx='sudo /mnt/pi/mining/run/arch/gprx.sh'
     alias mine-mo='sudo /mnt/pi/mining/run/arch/mocean-alt.sh'
     alias hss='hugo server --noHTTPCache'
     alias rg="rg -g '!{**/node_modules/*,**/.git/*,**/target/*}' --hidden --follow"
