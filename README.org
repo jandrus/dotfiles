@@ -4,33 +4,29 @@
 #+html: <p align="center"><b> :godmode: My dotfiles! :godmode:</b></p>
 
 * Table of Contents :toc:
-- [[#-features][✨ Features]]
+- [[#-features][🙃 Features]]
 - [[#-install][📥 Install]]
-- [[#usage][Usage]]
+  - [[#dependencies][Dependencies]]
+  - [[#cloning][Cloning]]
 - [[#donate][Donate]]
-- [[#license][License]]
 
-* ✨ Features
+* 🙃 Features
+- These are my dotfiles...
 
 * 📥 Install
+** Dependencies
+#+BEGIN_SRC shell
+sudo pacman -S git stow
+#+END_SRC
 
-
-* Usage
+** Cloning
+#+BEGIN_SRC shell
+cd ~
+git clone https://github.com/jandrus/dotfiles.git
+cd dotfiles
+stow .
+#+END_SRC
 
 * Donate
 - *BTC*: ~bc1qvx8q2xxwesw22yvrftff89e79yh86s56y2p9x9~
 - *XMR*: ~84t9GUWQVJSGxF8cbMtRBd67YDAHnTsrdWVStcdpiwcAcAnVy21U6RmLdwiQdbfsyu16UqZn6qj1gGheTMkHkYA4HbVN4zS~
-
-* License
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
