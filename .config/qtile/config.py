@@ -1,1 +1,1 @@
-config_thinkpad.py
+config_desktop.py

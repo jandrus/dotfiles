@@ -33,6 +33,8 @@ if status is-interactive
     alias :w='cowsay -d "A specter is haunting the modern world"'
     alias mine-nh='sudo /mnt/pi/mining/run/arch/nicehash.sh'
     alias mine-mo='sudo /mnt/pi/mining/run/arch/mocean-alt.sh'
+    alias mine-xmr-alt='sudo /mnt/pi/mining/run/arch/xmr-alt.sh'
+    alias mine-xmr='sudo /mnt/pi/mining/run/arch/xmr.sh'
     alias hss='hugo server --noHTTPCache'
     alias rg="rg -g '!{**/node_modules/*,**/.git/*,**/target/*}' --hidden --follow"
 end

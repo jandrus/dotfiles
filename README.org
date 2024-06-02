@@ -8,6 +8,7 @@
 - [[#-install][📥 Install]]
   - [[#dependencies][Dependencies]]
   - [[#cloning][Cloning]]
+  - [[#update-from-repo][Update from repo]]
 - [[#donate][Donate]]
 
 * 🙃 Features
@@ -25,6 +26,12 @@ cd ~
 git clone https://github.com/jandrus/dotfiles.git
 cd dotfiles
 stow .
+#+END_SRC
+
+** Update from repo
+#+BEGIN_SRC shell
+cd ~/dotfiles
+git pull origin master
 #+END_SRC
 
 * Donate
